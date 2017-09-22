@@ -19,3 +19,6 @@
 6. Same happens with `htmlCssSanitizer`. The fix is the same as the one used with `wax`.
 
 7. At this point, the map doesn't render properly.
+
+8. `cartodb.css` is a requirement. Without it, the map doesn't work.
+    We should find a way to build and inject it automatically when using the library so we skip the step of having to build the CSS and add it in the host HTML.

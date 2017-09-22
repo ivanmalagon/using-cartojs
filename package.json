@@ -5,7 +5,8 @@
   "main": "src/main.js",
   "scripts": {
     "dev": "webpack --config webpack.config.js --watch",
-    "serve": "http-server -p 5000"
+    "serve": "http-server -p 5000",
+    "css": "./node_modules/cartodb.js/node_modules/.bin/grunt build:css"
   },
   "author": "Ivan Malagon",
   "dependencies": {

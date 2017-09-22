@@ -1,0 +1,20 @@
+{
+  "name": "usingcdbv4",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --watch",
+    "serve": "http-server -p 5000"
+  },
+  "author": "Ivan Malagon",
+  "dependencies": {
+    "cartodb.js": "CartoDB/cartodb.js#v4"
+  },
+  "devDependencies": {
+    "http-server": "0.10.0",
+    "shim-loader": "1.0.1",
+    "tpl-loader": "CartoDB/tpl-loader#master",
+    "webpack": "3.6.0"
+  }
+}

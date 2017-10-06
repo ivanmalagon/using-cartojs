@@ -3,11 +3,6 @@
   "version": "0.1.0",
   "description": "",
   "main": "src/main.js",
-  "scripts": {
-    "dev": "webpack --config webpack.config.js --watch",
-    "serve": "http-server -p 5000",
-    "css": "./node_modules/cartodb.js/node_modules/.bin/grunt build:css"
-  },
   "author": "Ivan Malagon",
   "dependencies": {
     "cartodb.js": "CartoDB/cartodb.js#v4"
@@ -17,5 +12,10 @@
     "shim-loader": "1.0.1",
     "tpl-loader": "CartoDB/tpl-loader#master",
     "webpack": "3.6.0"
+  },
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --watch",
+    "serve": "http-server -p 5000",
+    "css": "./node_modules/cartodb.js/node_modules/.bin/grunt build:css"
   }
 }

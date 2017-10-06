@@ -22,3 +22,5 @@
 
 8. `cartodb.css` is a requirement. Without it, the map doesn't work.
     We should find a way to build and inject it automatically when using the library so we skip the step of having to build the CSS and add it in the host HTML.
+
+9. Same with fonts. The console throws errors related to not getting `OpenSans-Regular`.
